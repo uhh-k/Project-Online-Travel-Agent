@@ -8,4 +8,4 @@ compare, and book travel-related services such as flights and hotels. The agent 
 - Tracking Daily Booking Volumes: Track the number of bookings for flights and hotels each day. 
 - Monitoring Average Ticket Prices over Time: Monitor fluctuations in ticket prices to detect demand changes and guide pricing strategies.
 
-The project is based on the a [website] (https://istywhyerlina.medium.com/designing-simple-data-warehouse-model-for-online-travel-agent-ota-with-dbt-ab4985f8e7da) (State: October 17, 2025) that demonstrates designing DWH for an online travel agent. It is also the source of the raw data. Necessary modifications were made to fit in the implementations.
+The project is based on the a [website](https://istywhyerlina.medium.com/designing-simple-data-warehouse-model-for-online-travel-agent-ota-with-dbt-ab4985f8e7da) (State: October 17, 2025) that demonstrates designing DWH for an online travel agent. It is also the source of the raw data. Necessary modifications were made to fit in the implementations.
