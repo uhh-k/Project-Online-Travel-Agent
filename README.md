@@ -13,4 +13,6 @@ The project is based on the a [website](https://istywhyerlina.medium.com/designi
 
 ## Structure and Design
 
-There are two data pipelines: one for database (*db*) and one for data warehouse (*dwh*). Both ETL pipelines include three Python modules (*extract*, *transformation*, *load*). The module *etl_processes* orchestrates the ETL processes in each pipeline. In addition to the pipeline modules there is a module (*etl_functions*) that provides general functions for both ETL pipelines.
+There are two data pipelines: one for database (*db*) and one for data warehouse (*dwh*). The first pipeline loads raw data in a database. The second pipeline extracts data from the database and loads them in a data warehouse. 
+
+Both ETL pipelines include three Python modules (*extract*, *transformation*, *load*). The module *etl_processes* orchestrates the ETL processes in each pipeline. In addition to the pipeline modules there is a module (*etl_functions*) that provides general functions for both ETL pipelines.
